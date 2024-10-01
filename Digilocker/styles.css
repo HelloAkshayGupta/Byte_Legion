@@ -1,0 +1,86 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header with Sign In and Sign Up buttons */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2363a7;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav a.btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+nav a.btn:hover {
+    background-color: #e0e0e0;
+    color: #0056b3;
+}
+
+/* Main welcome section */
+.welcome-banner {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.welcome-banner p {
+    font-size: 1.2rem;
+}
+
+/* Features section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.feature p {
+    font-size: 1rem;
+}
